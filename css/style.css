@@ -1,0 +1,39 @@
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../images/retro-book.jpg) ;
+    background-size: cover;
+}
+.qoutes-container{
+    background: transparent;
+    border: 2px sold rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+}
+h1::after{
+    content: "|";
+    animation: header 2s infinite;
+}
+@keyframes header {
+    0%{content: "P|";}
+    5%{content: "Pi|";}
+    10%{content: "Pic|";}
+    15%{content: "Pick|";}
+    20%{content: "Pick |";}
+    25%{content: "Pick a|";}
+    30%{content: "Pick a |";}
+    35%{content: "Pick a R|";}
+    40%{content: "Pick a Ra|";}
+    45%{content: "Pick a Ran|";}
+    50%{content: "Pick a Rand|";}
+    55%{content: "Pick a Rando|";}
+    60%{content: "Pick a Random|";}
+    65%{content: "Pick a Random |";}
+    70%{content: "Pick a Random Q|";}
+    75%{content: "Pick a Random Qo|";}
+    80%{content: "Pick a Random Qou|";}
+    85%{content: "Pick a Random Qout|";}
+    90%{content: "Pick a Random Qoute|";}
+    95%{content: "Pick a Random Qoute 🎁|";}
+    100%{content: "Pick a Random Qoute 🎁 |";}
+}
